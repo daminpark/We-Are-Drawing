@@ -143,12 +143,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 7d6be8e9e32627f4ca48e541d6fd5997, type: 2}
-<<<<<<< Updated upstream
-=======
-  - {fileID: 11400000, guid: 2f7e456379f8baf4fa35e6a465a781a2, type: 2}
-  - {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
-  - {fileID: -3425277908588596530, guid: 124a19a2d53d6be42b0e0f6900dd8c5e, type: 2}
->>>>>>> Stashed changes
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -758,7 +752,6 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-<<<<<<< Updated upstream
     Android: UNITY_POST_PROCESSING_STACK_V2;FUSION_WEAVER;FUSION2
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
     GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
@@ -772,10 +765,6 @@ PlayerSettings:
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
     tvOS: UNITY_POST_PROCESSING_STACK_V2
-=======
-    Android: FUSION_WEAVER;FUSION2
-    Standalone: FUSION_WEAVER;FUSION2
->>>>>>> Stashed changes
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
