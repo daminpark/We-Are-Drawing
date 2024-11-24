@@ -12,6 +12,9 @@ public class BrushTip : MonoBehaviour
     public Color leftHandColor = Color.red;
     public Color rightHandColor = Color.blue;
 
+    [Header("Painting Settings")]
+    public bool paintingAllowed = true; // Added option to allow or prohibit painting
+
     // Reference to the BrushSizeAdjuster
     private BrushSizeAdjuster brushSizeAdjuster;
 
@@ -46,13 +49,30 @@ public class BrushTip : MonoBehaviour
         if (brushSizeAdjuster != null && brushSizeAdjuster.IsAdjustingBrushSize())
             return;
 
-        // Handle drawing with the left hand
-        HandleDrawing(leftHand, leftIndexTip, HandSide.Left, leftHandColor);
-
-        // Handle drawing with the right hand
-        HandleDrawing(rightHand, rightIndexTip, HandSide.Right, rightHandColor);
-
+        // Update fingertip indicators positions
         UpdateFingertipIndicators();
+
+        // Update visibility of fingertip indicators based on paintingAllowed
+        UpdateFingertipIndicatorVisibility();
+
+        // Only handle drawing if painting is allowed
+        if (paintingAllowed)
+        {
+            // Handle drawing with the left hand
+            HandleDrawing(leftHand, leftIndexTip, HandSide.Left, leftHandColor);
+
+            // Handle drawing with the right hand
+            HandleDrawing(rightHand, rightIndexTip, HandSide.Right, rightHandColor);
+        }
+        else
+        {
+            // Ensure any ongoing strokes are ended
+            if (strokeManager != null)
+            {
+                strokeManager.EndStroke(HandSide.Left);
+                strokeManager.EndStroke(HandSide.Right);
+            }
+        }
     }
 
     private void HandleDrawing(OVRHand hand, Transform indexTip, HandSide handSide, Color handColor)
@@ -182,10 +202,10 @@ public class BrushTip : MonoBehaviour
         Material indicatorMaterial = new Material(Shader.Find("Unlit/Color"));
         indicatorMaterial.color = color;
         indicator.GetComponent<Renderer>().material = indicatorMaterial;
-        indicator.tag = "Fingertip";
+        indicator.tag = "Player"; // Tagged as "Player" to work with LevelSelector
         // Add a small collider
         SphereCollider collider = indicator.GetComponent<SphereCollider>();
-        collider.isTrigger = false;
+        collider.isTrigger = false; // Ensure collider is not a trigger
         collider.radius = 0.0025f;
         // Add Rigidbody
         Rigidbody rb = indicator.AddComponent<Rigidbody>();
@@ -202,6 +222,28 @@ public class BrushTip : MonoBehaviour
         if (rightIndexTip != null && rightIndexFingerTipIndicator != null)
         {
             rightIndexFingerTipIndicator.transform.position = rightIndexTip.position;
+        }
+    }
+
+    private void UpdateFingertipIndicatorVisibility()
+    {
+        // Hide or show the fingertip indicators based on paintingAllowed
+        if (leftIndexFingerTipIndicator != null)
+        {
+            var renderer = leftIndexFingerTipIndicator.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.enabled = paintingAllowed;
+            }
+        }
+
+        if (rightIndexFingerTipIndicator != null)
+        {
+            var renderer = rightIndexFingerTipIndicator.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.enabled = paintingAllowed;
+            }
         }
     }
 
