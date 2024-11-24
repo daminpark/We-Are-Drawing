@@ -1,16 +1,12 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.all": "69.0.1",
-    "com.meta.xr.sdk.avatars": "31.0.0",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.11.2",
     "com.unity.multiplayer.center": "1.0.0",
-    "com.unity.netcode.gameobjects": "2.1.1",
     "com.unity.nuget.mono-cecil": "1.10.2",
     "com.unity.postprocessing": "3.4.0",
-    "com.unity.services.lobby": "1.2.2",
-    "com.unity.services.relay": "1.1.1",
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.5",
