@@ -1,4 +1,5 @@
 # ninja log v5
+<<<<<<< Updated upstream
 43	282	7539935404590034	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	2e555a94c8abf8c5
 284	409	7539935405810203	C:/Users/pierr/OneDrive/Documents/We Are Drawing/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/635r3h91/obj/arm64-v8a/libswappywrapper.so	e7b02621e500da15
 16	944	7539935411162102	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3c311d5b304aa1cd
@@ -10,3 +11,16 @@
 21	1230	7539935414013907	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6ca4bef6cf12434f
 11	1358	7539935415231833	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ececafea9fe5064b
 1358	1456	7539935416286147	C:/Users/pierr/OneDrive/Documents/We Are Drawing/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/635r3h91/obj/arm64-v8a/libgame.so	9fdcd874345585c9
+=======
+42	277	7539901764822305	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	2e555a94c8abf8c5
+278	409	7539901766093590	C:/Users/pierr/OneDrive/Documents/We Are Drawing/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/635r3h91/obj/arm64-v8a/libswappywrapper.so	e7b02621e500da15
+21	810	7539901770096029	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3c311d5b304aa1cd
+26	821	7539901770220697	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2dc9c5a6b96fcd93
+10	830	7539901770286423	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	8d3ae3006fef8d1c
+31	847	7539901770441855	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	dc893793384dc5db
+37	902	7539901770983004	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8db32c3b1d5a0fe
+0	949	7539901771489788	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4a35c1d9fcba8f
+15	1102	7539901772997121	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6ca4bef6cf12434f
+6	1238	7539901774356607	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ececafea9fe5064b
+1238	1339	7539901775381842	C:/Users/pierr/OneDrive/Documents/We Are Drawing/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/635r3h91/obj/arm64-v8a/libgame.so	9fdcd874345585c9
+>>>>>>> Stashed changes
