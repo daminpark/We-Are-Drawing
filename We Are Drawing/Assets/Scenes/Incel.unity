@@ -1534,7 +1534,7 @@ MonoBehaviour:
   pinchThreshold: 0.8
   leftHandColor: {r: 1, g: 0.033018887, b: 0.033018887, a: 0}
   rightHandColor: {r: 1, g: 0, b: 0.7081771, a: 0}
-  paintingAllowed: 0
+  paintingAllowed: 1
 --- !u!4 &731542709
 Transform:
   m_ObjectHideFlags: 0
