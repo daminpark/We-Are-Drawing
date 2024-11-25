@@ -1,0 +1,22 @@
+
+newmtl Standard_C5AFA7
+Kd  0.772549 0.6862745 0.654902
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
+
+newmtl Standard_FF1623
+Kd  1 0.08627451 0.1372549
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
