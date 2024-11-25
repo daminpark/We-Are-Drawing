@@ -1,0 +1,22 @@
+
+newmtl Standard_FCF43A
+Kd  0.9882353 0.9568627 0.227451
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
+
+newmtl Standard_55FF1D
+Kd  0.3333333 1 0.1137255
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+

@@ -1,0 +1,33 @@
+
+newmtl Standard_587DB6
+Kd  0.345098 0.4901961 0.7137255
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
+
+newmtl Standard_000000
+Kd  0 0 0
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
+
+newmtl Standard_08F4FC
+Kd  0.03137255 0.9568627 0.9882353
+Ks  0 0 0
+Ka  0 0 0
+d  1
+Ns  0
+illum 2
+
+
+
