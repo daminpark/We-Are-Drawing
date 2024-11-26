@@ -1,0 +1,23 @@
+# ninja log v5
+0	631	1732540884352058740	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f01e6b85c279a147
+1	483	1732540884213805480	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	892088fd0600f3b6
+2	563	1732540884295633990	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8b6b72eb313f3483
+3	453	1732540884187147298	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d981844cf1c76a9
+2	419	1732540884152469253	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	886aca1ae32df9e0
+631	741	1732540884467261582	/Users/timfi/Documents/GitHub/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/21u2o1v5/obj/arm64-v8a/libgame.so	676182e0aebd679d
+2	399	1732540884133443350	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d594bde10df9f318
+0	412	1732540884145843187	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3cf14342df43d898
+1	401	1732540884135459899	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	5c0ac275252ab8f7
+140	261	1732540883988871317	/Users/timfi/Documents/GitHub/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/21u2o1v5/obj/arm64-v8a/libswappywrapper.so	be2664b0fd4c078d
+3	140	1732540883874419186	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	8ca45ac8f4a9d44f
+5	366	1732548341526700364	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	8ca45ac8f4a9d44f
+2	606	1732548341772734601	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d594bde10df9f318
+2	608	1732548341775229567	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	5c0ac275252ab8f7
+367	610	1732548341768211794	/Users/timfi/Documents/GitHub/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/21u2o1v5/obj/arm64-v8a/libswappywrapper.so	be2664b0fd4c078d
+1	619	1732548341786170229	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3cf14342df43d898
+3	621	1732548341786634355	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	886aca1ae32df9e0
+4	673	1732548341839582907	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d981844cf1c76a9
+1	688	1732548341851739697	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	892088fd0600f3b6
+2	781	1732548341947541017	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8b6b72eb313f3483
+0	845	1732548341993051460	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f01e6b85c279a147
+845	959	1732548342119904967	/Users/timfi/Documents/GitHub/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/21u2o1v5/obj/arm64-v8a/libgame.so	676182e0aebd679d

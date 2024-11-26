@@ -1,0 +1,3 @@
+C:\Users\pierr\Documents\We-Are-Drawing\We Are Drawing\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\pierr\Documents\We-Are-Drawing\We Are Drawing\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+C:\Users\pierr\Documents\We-Are-Drawing\We Are Drawing\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
