@@ -1896,8 +1896,8 @@ MonoBehaviour:
   rightHand: {fileID: 1775119024}
   pinchThreshold: 0.8
   handsCloseThreshold: 0.1
-  indicatorMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
-  indicatorColor: {r: 1, g: 0.3254717, b: 0.3254717, a: 1}
+  indicatorMaterial: {fileID: 2100000, guid: badab175aa956584b90bd521ceb7e8f2, type: 2}
+  indicatorColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
 --- !u!4 &911028403
 Transform:
   m_ObjectHideFlags: 0

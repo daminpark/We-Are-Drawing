@@ -1,0 +1,23 @@
+# ninja log v5
+1	1086	7542682554215307	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	843e639b2101a030
+49	288	7542682546315732	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	51e7b8e03302203d
+43	831	7542682551673024	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d31bc742e4c92d34
+7	710	7542682550462194	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ac88c977669be16c
+290	395	7542682547327610	C:/Users/pierr/Documents/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7331a1j6/obj/arm64-v8a/libswappywrapper.so	5198729ae1b1d7f8
+23	704	7542682550363079	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fe39279dbeb23338
+17	705	7542682550363079	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f4e1e5ed940e9bd
+12	837	7542682551730012	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	314531717610968
+36	733	7542682550686302	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1cbf20698c8da9e3
+29	996	7542682553345207	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4b9560fd5c412413
+1086	1176	7542682555140440	C:/Users/pierr/Documents/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7331a1j6/obj/arm64-v8a/libgame.so	5060c7aeefc01b9e
+47	159	7542683581573368	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	51e7b8e03302203d
+159	258	7542683582546429	C:/Users/pierr/Documents/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7331a1j6/obj/arm64-v8a/libswappywrapper.so	5198729ae1b1d7f8
+18	668	7542683586602878	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fe39279dbeb23338
+23	670	7542683586623184	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f4e1e5ed940e9bd
+3	682	7542683586738086	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ac88c977669be16c
+35	706	7542683586992727	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1cbf20698c8da9e3
+13	801	7542683587926579	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	314531717610968
+42	810	7542683588014294	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d31bc742e4c92d34
+29	969	7542683589599521	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4b9560fd5c412413
+9	1099	7542683590839290	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	843e639b2101a030
+1099	1204	7542683591951630	C:/Users/pierr/Documents/We-Are-Drawing/We Are Drawing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/7331a1j6/obj/arm64-v8a/libgame.so	5060c7aeefc01b9e
